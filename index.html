@@ -1,10 +1,94 @@
-<html>
+<html lang="ko">
 <head>
-<title>hello</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>이재경 – 나를 소개하는 페이지</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      font-family: 'Pretendard', sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .hero {
+      background: linear-gradient(to bottom, #a8edea, #fed6e3);
+      color: #111;
+      flex-direction: column;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #444;
+    }
+
+    .quote {
+      font-size: 1.8rem;
+      max-width: 700px;
+      padding: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
 </head>
-<boby>
-<h1>내 생에 첫 홈페이지</h1>
-<p>hello world</p>
+<body>
+
+  <!-- 인사말 / 메인 섹션 -->
+  <section class="hero">
+    <h1>이재경</h1>
+    <p>그냥 흘러가는 대로 살아도 괜찮다고 말하는 사람.</p>
+  </section>
+
+  <!-- 감성적인 글귀들 -->
+  <section>
+    <div class="quote">"완벽하지 않아도, 나답게 살아가는 법을 배우는 중입니다."</div>
+  </section>
+
+  <section>
+    <div class="quote">"내가 꾸는 꿈은, 언젠가 누군가의 용기가 되기를."</div>
+  </section>
+
+  <section>
+    <div class="quote">"가끔은 멈추는 것도, 내가 나를 지키는 방법 중 하나."</div>
+  </section>
+
+  <section>
+    <div class="quote">"좋은 하루는 거창하지 않아. 그저 내가 웃을 수 있는 날이면 충분해."</div>
+  </section>
+
+  <section>
+    <div class="quote">"천천히 가도 괜찮아. 길은 결국 나를 어디론가 데려다 줄 테니까."</div>
+  </section>
+
+  <!-- 하단 -->
+  <footer>
+    &copy; 2025 이재경. All rights reserved.
+  </footer>
+
 </body>
 </html>
